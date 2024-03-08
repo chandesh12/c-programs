@@ -10,8 +10,7 @@ int main()
         int j = 1;
         while (j <= n)
         {
-            //here we use type casting//
-            char ch = 'A' + i - 1;
+            char ch = 'A' + i + j - 2;
             cout << ch;
             j = j + 1;
         }
